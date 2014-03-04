@@ -1,0 +1,1 @@
+var paper = Snap("#svg");

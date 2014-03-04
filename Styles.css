@@ -1,5 +1,43 @@
+html
+{
+    background-image: linear-gradient(to right, #b9b4b4, #d9d9d9);
+}
+
 body
 {
-    color:#606230;
-    background-color: #e5e5e5;
+    margin: auto;
+    background-color: #f9f4f4;
+    max-width: 800px;
+    padding: 1em 2em 2em 2em;
+}
+
+header
+{
+}
+
+nav
+{
+    background-color: #4ebe4e;
+    max-width: 480px
+}
+
+a:link, a:visited
+{
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+    border-color: red;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+}
+
+a:hover, a:active
+{
+    background-color: #6bc96b;
+}
+
+section
+{
 }
